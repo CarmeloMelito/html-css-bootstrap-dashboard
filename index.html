@@ -12,9 +12,59 @@
 </head>
 
 <body>
+    <!-- Header -->
     <header>
-        <img src="/img/duck.png" alt="Papera">
+        <!-- Inizio NavBar header -->
+        <nav class="navbar navbar-expand-lg bg-dark">
+            <div class="container-fluid">
+                <img src="/img/duck.png" alt="Papera">
+
+                <!-- Button Nav Mobile -->
+                <div class="collapse" id="navbarToggleExternalContent" data-bs-theme="dark">
+                    <div class="bg-dark p-4">
+                        <h5 class="text-body-emphasis h4">Collapsed content</h5>
+                        <span class="text-body-secondary">Toggleable via the navbar brand.</span>
+                    </div>
+                </div>
+                <nav class="navbar navbar-dark bg-dark">
+                    <div class="container-fluid">
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                    </div>
+                </nav>
+                <!-- Button Nav Mobile -->
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active text-light" aria-current="page" href="#">Catalogo Libri</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link  text-secondary" href="#">Anagrafica utenti</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link  text-secondary" href="#" aria-expanded="false">
+                                Storico Prestiti
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-secondary " aria-disabled="true">Help</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button type="button" class="btn btn-outline-light text-light">Cerca</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+        <!-- Fine Navbar Header -->
     </header>
+    <!-- Fine Header -->
+
 
 </body>
 
