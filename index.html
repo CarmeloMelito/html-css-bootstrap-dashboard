@@ -71,15 +71,15 @@
         <div class="container text-left">
             <div class="row">
                 <div class="col-12 col-lg-10 mt-2">
-                    <p class="h2">Catalogo Libri</p>
+                    <p class="h2 d-inline">Catalogo Libri</p>
                     <div class=" d-flex justify-content-end ">
                         <button class="btn btn-primary " type="button">Aggiungi Libro</button>
                     </div>
-                    <table class="table">
+                    <table class="table table-striped">
                         <thead>
                             <tr>
                                 <th scope="col">Titolo</th>
-                                <th scope="col">Data Prestito</th>
+                                <th scope="col d-sm-none d-md-block">Data Prestito</th>
                                 <th scope="col">Stato</th>
                                 <th scope="col">Azioni</th>
                             </tr>
@@ -101,7 +101,10 @@
                             </tr>
                             <tr>
                                 <th scope="row">Il signore degli anelli</th>
-                                <td colspan="2">18/10/2023</td>
+                                <td>18/10/2023</td>
+                                <td><button type="button" class="btn btn-warning  btn-sm text-light">In
+                                        prestito</button>
+                                </td>
                                 <td>icone</td>
                             </tr>
 
@@ -116,7 +119,8 @@
                             <tr>
                                 <th scope="row">Il codice da vinci</th>
                                 <td>-</td>
-                                <td>Otto</td>
+                                <td><button type="button" class="btn btn-danger btn-sm">Non disponibile</button>
+                                </td>
                                 <td>icone</td>
                             </tr>
 
@@ -131,7 +135,8 @@
                             <tr>
                                 <th scope="row">La divina commedia</th>
                                 <td>21/09/2023</td>
-                                <td>Otto</td>
+                                <td><button type="button" class="btn btn-warning  btn-sm text-light">In
+                                        prestito</button></td>
                                 <td>icone</td>
                             </tr>
 
@@ -146,14 +151,16 @@
                             <tr>
                                 <th scope="row">Il mondo di Sofia</th>
                                 <td>-</td>
-                                <td>Otto</td>
+                                <td><button type="button" class="btn btn-danger btn-sm">Non disponibile</button>
+                                </td>
                                 <td>icone</td>
                             </tr>
 
                             <tr>
                                 <th scope="row">Le cronache di Narnia:il leone,la strega e l'armadio</th>
                                 <td>25/07/2023</td>
-                                <td>Otto</td>
+                                <td><button type="button" class="btn btn-warning  btn-sm text-light ">In
+                                        prestito</button></td>
                                 <td>icone</td>
                             </tr>
 
